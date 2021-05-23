@@ -39,11 +39,6 @@ cd timeinwords/
 ```
 mvn clean install
 ```
-Wait for the end of process, and than run this to execute the app.
-
-```
-mvn clean install
-```
 Wait for the end of process, and than run this to execute the app using command below.
 
 ```
