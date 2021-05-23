@@ -8,7 +8,7 @@ For example, the application receive this number on first parameter 5 and this 0
 
 ##### Update packages before
 
-Before install this project, you need to install the maven, follow the steps below this.
+Before install this project, you need to install the maven and java 1.8, follow the steps below this.
 
 ```
 sudo apt update
@@ -16,8 +16,16 @@ sudo apt update
 ```
 sudo apt upgrade
 ```
-Done? Right, now you can install maven using the command below.
+Done? Right, now you can install Java using the command below.
 
+```
+sudo apt install openjdk-8-jdk
+```
+Wait to finish, you can confirm the version installed.
+```
+java -version
+```
+Installing maven
 ```
 sudo apt install maven
 ```
