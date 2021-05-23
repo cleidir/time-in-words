@@ -12,22 +12,11 @@ public class TimeInWordsApplication {
 		SpringApplication.run(TimeInWordsApplication.class, args);
 		
 		HourService hourService = new HourService();
-
 		
-		//TODO pass hour informations
 		System.out.println(new HourService().returnHourDescription(5, 01));
-		System.out.println(hourService.returnHourDescription(3, 0));
-		System.out.println(hourService.returnHourDescription(7, 15));
-		
-		
-		//TODO
-		//review the code
-		//create script to run the app on CLI
-		//Create readme.md
-		
-//		System.out.println(HourTextGenerator.generate(5, 01));
-//		System.out.println(HourTextGenerator.generate(5, 01));
-//		System.out.println(HourTextGenerator.generate(3, 0));
-//		System.out.println(HourTextGenerator.generate(7, 15));
+		System.out.println(hourService.returnHourDescription(5, 0));
+		System.out.println(hourService.returnHourDescription(5, 15));
+		System.out.println(hourService.returnHourDescription(5, 30));
+		System.out.println(hourService.returnHourDescription(5, 40));
 	}
 }
