@@ -30,11 +30,22 @@ mvn -version
 
 Clone the repository ***git@github.com:cleidir/timeinwords.git***
 
-Access the project directory and execute te commands bellow to install the application.
+Access the project directory and execute te commands below to install the application.
 
 ```
-mvn install
+cd timeinwords/
+```
+
+```
+mvn clean install
 ```
 Wait for the end of process, and than run this to execute the app.
 
-***to be continue...***
+```
+mvn clean install
+```
+Wait for the end of process, and than run this to execute the app using command below.
+
+```
+java -jar -Dapple.awt.UIElement="true" target/time.words-0.0.1-SNAPSHOT.jar -h
+```
